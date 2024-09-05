@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icone_Star2.ico" type="image/x-icon">  <!--Insere o ícone na aba do navegador-->
+    <title>Imersão DEV_</title>  <!--Título da Página-->
+    <link rel="stylesheet" href="styles.css">  <!--Chama o arquivo de configuração CSS-->
+</head>
+<body>
+    <header>
+        <h1> Guia de Dados Educacionais</h1> <!--Cabeçalho da página-->
+    </header>
+    <main>
+        <section>  <!--Cria e chama a função pesquisar do botão-->
+            <input type="text" placeholder="Digite sua busca aqui">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">  <!--Chama a função resultados-pesquisa no JS-->
+        </section>
+        
+    </main>
+    <footer>  <!--Rodapé da página-->
+        <img src="LOGO Star_Sem_Fundo.png" alt="Star Soluções" width="150" height="60">
+        <p>© Star Soluções 2024 - Todos os direitos reservados <br>Contato : danubiocabral©gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>  <!--Chama o arquivo JavaScript dados.js-->
+    <script src="app.js"></script>  <!--Chama o arquivo JavaScript app.js-->
+</body>
+</html>
